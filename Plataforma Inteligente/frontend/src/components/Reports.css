@@ -1,0 +1,241 @@
+.reports {
+  padding: 20px 0;
+}
+
+.athlete-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.report-tabs {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  border-bottom: 2px solid #eee;
+}
+
+.report-tabs button {
+  padding: 12px 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #666;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s;
+}
+
+.report-tabs button:hover {
+  color: #667eea;
+}
+
+.report-tabs button.active {
+  color: #667eea;
+  border-bottom-color: #667eea;
+  font-weight: 600;
+}
+
+.report-content {
+  margin-top: 20px;
+}
+
+.report-period {
+  margin-top: 15px;
+}
+
+.report-period p {
+  margin: 8px 0;
+  color: #666;
+}
+
+.improvements-list,
+.regressions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.improvement-item,
+.regression-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+.improvement-item {
+  border-left: 4px solid #28a745;
+}
+
+.regression-item {
+  border-left: 4px solid #dc3545;
+}
+
+.improvement-value.positive {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.regression-value.negative {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.comparison-card {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 4px solid #667eea;
+}
+
+.comparison-card h4 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.skill-comparison {
+  margin-top: 15px;
+}
+
+.comparison-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.comparison-item:last-child {
+  border-bottom: none;
+}
+
+.skill-label {
+  font-weight: 500;
+  min-width: 150px;
+}
+
+.comparison-values {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.comparison-values .positive {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.comparison-values .negative {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.plan-summary {
+  margin-top: 15px;
+}
+
+.plan-summary p {
+  margin: 8px 0;
+  color: #666;
+}
+
+.projection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.projection-card {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.projection-card h4 {
+  margin: 0 0 15px 0;
+  color: #333;
+}
+
+.projection-target {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #667eea;
+  font-weight: 600;
+}
+
+.projection-areas ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.projection-areas li {
+  padding: 5px 0;
+  color: #555;
+}
+
+.projection-areas li:before {
+  content: "→ ";
+  color: #667eea;
+  font-weight: bold;
+}
+
+.reference-players-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.reference-player-card {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.reference-player-card h4 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.reference-player-card p {
+  margin: 8px 0;
+  color: #666;
+}
+
+.traits {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #dee2e6;
+}
+
+.traits ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.traits li {
+  padding: 5px 0;
+  color: #555;
+  font-size: 13px;
+}
+
+.traits li:before {
+  content: "✓ ";
+  color: #28a745;
+  font-weight: bold;
+}
+
+

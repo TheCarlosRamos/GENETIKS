@@ -1,0 +1,102 @@
+.dashboard {
+  padding: 20px 0;
+}
+
+.athlete-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.evolution-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.evolution-item-small {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  border-left: 4px solid #667eea;
+}
+
+.skill-name-small {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.change-small {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.change-small.positive {
+  color: #28a745;
+}
+
+.change-small.negative {
+  color: #dc3545;
+}
+
+.change-small.neutral {
+  color: #6c757d;
+}
+
+.evolution-item {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.evolution-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.skill-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.evolution-change {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.evolution-change.positive {
+  color: #28a745;
+}
+
+.evolution-change.negative {
+  color: #dc3545;
+}
+
+.evolution-change.neutral {
+  color: #6c757d;
+}
+
+.evolution-values {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  color: #666;
+}
+
+

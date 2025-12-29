@@ -1,0 +1,43 @@
+========================================
+STATUS ATUAL DOS SERVIDORES
+========================================
+
+✅ BACKEND: RODANDO na porta 8000
+❌ FRONTEND: NAO esta rodando na porta 3000
+
+========================================
+SOLUCAO RAPIDA
+========================================
+
+1. Abra um NOVO terminal/PowerShell
+
+2. Execute:
+   .\INICIAR-FRONTEND.bat
+
+   OU manualmente:
+   cd frontend
+   npm install  (se ainda nao instalou)
+   npm start
+
+3. Aguarde o frontend compilar (30-60 segundos)
+
+4. O navegador abrira automaticamente em:
+   http://localhost:3000
+
+========================================
+VERIFICAR BACKEND
+========================================
+
+O backend ja esta rodando! Voce pode testar:
+http://localhost:8000/docs
+
+Se conseguir acessar essa pagina, o backend esta OK!
+
+========================================
+PROXIMOS PASSOS
+========================================
+
+1. Inicie o frontend (comando acima)
+2. Aguarde compilar
+3. Acesse http://localhost:3000
+

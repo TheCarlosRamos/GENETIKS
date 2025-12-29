@@ -1,0 +1,40 @@
+========================================
+PLATAFORMA INTELIGENTE DE ATLETAS
+========================================
+
+COMO INSTALAR E RODAR:
+
+OPCAO 1 - INSTALACAO AUTOMATICA (RECOMENDADO):
+---------------------------------------------
+Duplo clique em: INSTALAR-TUDO.bat
+
+OU execute no PowerShell:
+.\INSTALAR-TUDO.bat
+
+
+OPCAO 2 - INSTALACAO MANUAL:
+----------------------------
+
+1. BACKEND (Terminal 1):
+   cd backend
+   pip install fastapi uvicorn sqlalchemy pydantic python-dotenv numpy pandas python-multipart alembic
+   python init_db.py
+   uvicorn main:app --reload
+
+2. FRONTEND (Terminal 2):
+   cd frontend
+   npm install
+   npm start
+
+
+IMPORTANTE:
+-----------
+- O arquivo requirements.txt esta em: backend/requirements.txt
+- Nao execute pip install na pasta raiz!
+- Sempre entre na pasta backend primeiro!
+
+
+PROBLEMAS?
+----------
+Consulte: SOLUCAO-RAPIDA.md ou INSTALL-TROUBLESHOOTING.md
+

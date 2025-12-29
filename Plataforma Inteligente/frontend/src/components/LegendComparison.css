@@ -1,0 +1,68 @@
+.legends-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.legend-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  border-left: 4px solid #667eea;
+}
+
+.legend-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.legend-header h4 {
+  margin: 0;
+  color: #333;
+}
+
+.similarity-badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.legend-info p {
+  margin: 8px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.legend-traits {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #dee2e6;
+}
+
+.legend-traits ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.legend-traits li {
+  padding: 5px 0;
+  color: #555;
+  font-size: 13px;
+}
+
+.legend-traits li:before {
+  content: "✓ ";
+  color: #28a745;
+  font-weight: bold;
+}
+
+

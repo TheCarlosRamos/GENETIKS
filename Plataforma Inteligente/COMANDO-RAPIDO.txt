@@ -1,0 +1,18 @@
+========================================
+COMANDO RAPIDO PARA INICIAR FRONTEND
+========================================
+
+Abra um terminal PowerShell e execute:
+
+cd "C:\Users\User\OneDrive - unb.br\Área de Trabalho\Plataforma Inteligente\frontend"
+
+npm install
+
+npm start
+
+========================================
+OU USE O SCRIPT SIMPLES
+========================================
+
+.\INICIAR-FRONTEND-SIMPLES.bat
+

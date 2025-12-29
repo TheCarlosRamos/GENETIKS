@@ -1,0 +1,142 @@
+.athlete-detail {
+  padding: 20px 0;
+}
+
+.back-link {
+  color: #667eea;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.athlete-info-card {
+  margin-bottom: 20px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #eee;
+}
+
+.tabs button {
+  padding: 12px 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #666;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s;
+}
+
+.tabs button:hover {
+  color: #667eea;
+}
+
+.tabs button.active {
+  color: #667eea;
+  border-bottom-color: #667eea;
+  font-weight: 600;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.classification-summary {
+  margin-bottom: 20px;
+}
+
+.recommended-position {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #667eea;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.compatibility-score {
+  font-size: 16px;
+  color: #666;
+}
+
+.strengths-list,
+.development-list {
+  list-style: none;
+  padding: 0;
+}
+
+.strengths-list li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background: #d4edda;
+  border-left: 4px solid #28a745;
+  border-radius: 4px;
+}
+
+.development-list li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  border-radius: 4px;
+}
+
+.position-scores {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.position-score-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.position-name {
+  min-width: 120px;
+  font-weight: 500;
+}
+
+.score-bar {
+  flex: 1;
+  height: 30px;
+  background: #e9ecef;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.score-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.5s;
+}
+
+.score-value {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #333;
+  font-weight: 600;
+  z-index: 1;
+}
+
+

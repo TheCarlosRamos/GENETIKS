@@ -1,0 +1,89 @@
+.athlete-form {
+  padding: 20px 0;
+}
+
+.athlete-form form {
+  max-width: 900px;
+}
+
+.athlete-form h3 {
+  margin: 30px 0 20px 0;
+  color: #333;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 10px;
+}
+
+.athlete-form h3:first-child {
+  margin-top: 0;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.skills-section {
+  display: grid;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.deficiencies-section {
+  margin-bottom: 20px;
+}
+
+.deficiency-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.deficiency-input input {
+  flex: 1;
+}
+
+.deficiencies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.deficiency-tag {
+  background: #e9ecef;
+  padding: 6px 12px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #666;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.remove-btn:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.form-actions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
