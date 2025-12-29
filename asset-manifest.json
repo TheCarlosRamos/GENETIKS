@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GENETIKS/static/css/main.718f78ef.css",
+    "main.js": "/GENETIKS/static/js/main.37372b82.js",
+    "index.html": "/GENETIKS/index.html",
+    "main.718f78ef.css.map": "/GENETIKS/static/css/main.718f78ef.css.map",
+    "main.37372b82.js.map": "/GENETIKS/static/js/main.37372b82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.718f78ef.css",
+    "static/js/main.37372b82.js"
+  ]
+}
