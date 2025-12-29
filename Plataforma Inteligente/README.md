@@ -1,32 +1,63 @@
-# Plataforma Inteligente de Classificação de Atletas de Futebol
+# GENETIKS - Plataforma Inteligente de Classificação de Atletas
 
-Plataforma completa para classificação, monitoramento e desenvolvimento de atletas baseada nas características dos maiores jogadores da história.
+Plataforma completa para classificação, monitoramento e desenvolvimento de atletas baseada nas características dos maiores jogadores da história, agora containerizada com Docker para fácil implantação.
 
 ## 🏗️ Arquitetura
 
 ### Backend
 - **FastAPI**: API REST moderna e rápida
-- **SQLite/PostgreSQL**: Banco de dados (SQLite por padrão, PostgreSQL opcional)
+- **SQLite**: Banco de dados embutido
 - **SQLAlchemy**: ORM para gerenciamento de dados
 - **NumPy/Scikit-learn**: Algoritmos de classificação e comparação
+- **Docker**: Containerização para fácil implantação
 
 ### Frontend
 - **React.js**: Interface moderna e responsiva
 - **Recharts**: Visualizações interativas (gráficos radar, linha)
 - **React Router**: Navegação entre páginas
+- **Nginx**: Servidor web para servir os arquivos estáticos
 
 ## 🚀 Início Rápido
 
-### ⚡ Opção 1: Script Automático (Recomendado)
+### Pré-requisitos
+- Docker (versão 20.10 ou superior)
+- Docker Compose (versão 1.29 ou superior)
 
-**Windows:**
-```bash
-# Duplo clique ou execute:
-start.bat
+### Iniciando a aplicação com Docker
 
-# Ou via PowerShell:
-.\run.ps1
-```
+1. **Clone o repositório** (se ainda não tiver feito):
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   cd GENETIKS/Plataforma\ Inteligente
+   ```
+
+2. **Execute o script de inicialização**:
+   ```powershell
+   .\start-docker.ps1
+   ```
+
+3. **Acesse a aplicação**:
+   - Frontend: http://localhost:8080
+   - Backend API: http://localhost:8000
+   - Documentação da API: http://localhost:8000/docs
+
+### Comandos úteis
+
+- **Parar a aplicação**:
+  ```bash
+  docker-compose down
+  ```
+
+- **Ver logs**:
+  ```bash
+  docker-compose logs -f
+  ```
+
+- **Reconstruir e reiniciar**:
+  ```bash
+  docker-compose up -d --build
+  ```
+
 
 **Linux/Mac (com Make):**
 ```bash

@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: genetiks-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/athlete_platform.db:/app/athlete_platform.db
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    networks:
+      - genetiks-network
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: genetiks-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - genetiks-network
+
+networks:
+  genetiks-network:
+    driver: bridge
