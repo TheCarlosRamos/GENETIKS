@@ -2,15 +2,19 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
+      "src": "Plataforma Inteligente/frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "Plataforma Inteligente/frontend/build"
+        "distDir": "Plataforma Inteligente/frontend/build",
+        "zeroConfig": true
       }
     }
   ],
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
+    { "src": "/.*", "dest": "/index.html" }
+  ],
+  "env": {
+    "CI": "false"
+  }
 }

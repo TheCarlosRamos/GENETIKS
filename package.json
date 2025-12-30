@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cd \"Plataforma Inteligente/frontend\" && npm install && npm run build"
+    "build": "echo 'Iniciando build...' && cd \"Plataforma Inteligente/frontend\" && echo 'Instalando dependências...' && npm install && echo 'Construindo aplicação...' && npm run build",
+    "vercel-build": "npm run build"
   }
 }
