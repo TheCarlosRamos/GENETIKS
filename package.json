@@ -1,9 +1,8 @@
-cd "c:\Users\carlos.ramos\OneDrive - Presidência da República\Área de Trabalho\GENETIKS_TEMP"
-echo {
+{
   "name": "genetiks",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "cd \"Plataforma Inteligente/frontend\" && npm install && npm run build"
   }
-} > package.json
+}

@@ -1,0 +1,8 @@
+Plataforma Inteligente/frontend/node_modules
+Plataforma Inteligente/backend
+Plataforma Inteligente/.git
+.git
+.gitignore
+*.md
+*.log
+.cache
