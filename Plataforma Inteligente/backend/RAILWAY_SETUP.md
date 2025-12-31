@@ -20,7 +20,8 @@
 1. Após o Railway detectar o repositório, clique no serviço criado
 2. Vá em **Settings**
 3. Configure o **Root Directory**: `Plataforma Inteligente/backend`
-4. O Railway detectará automaticamente que é um projeto Python
+4. O Railway detectará automaticamente que é um projeto Python e usará o Dockerfile
+5. **Importante**: Certifique-se de que o Root Directory está configurado corretamente, caso contrário o build falhará
 
 ### 4. Configurar Variáveis de Ambiente (Opcional)
 
