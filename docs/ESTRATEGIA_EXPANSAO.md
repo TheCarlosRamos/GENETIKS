@@ -1,7 +1,7 @@
 # Justificativa Técnica: Expansão da Base de Dados de Atletas
 
 ## Visão Geral
-A plataforma Genetiks foi concebida com um banco de dados de referência histórica (ex: Pelé, Maradona)[cite: 20]. Embora fundamentais para o marketing, esses perfis não refletem a totalidade das exigências físicas do futebol contemporâneo. Este documento detalha a estratégia de incorporação de jogadores em atividade (Séries A/B e Elite Europeia) para aumentar a precisão dos algoritmos de similaridade.
+A plataforma Genetiks foi concebida com um banco de dados de referência histórica (ex: Pelé, Maradona). Embora fundamentais para o marketing, esses perfis não refletem a totalidade das exigências físicas do futebol contemporâneo. Este documento detalha a estratégia de incorporação de jogadores em atividade (Séries A/B e Elite Europeia) para aumentar a precisão dos algoritmos de similaridade.
 
 ## Por que incluir jogadores atuais?
 
