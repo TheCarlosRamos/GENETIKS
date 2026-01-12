@@ -43,7 +43,7 @@ Para cobrir as principais demandas do futebol de alto nível, focaremos na inclu
 
 ### Zagueiros Construtores (Ball-Playing Defenders)
 * **Referências:** William Saliba, Rúben Dias, Virgil van Dijk.
-* **Valor no Modelo:** Validam a capacidade do defensor de iniciar jogadas. Cruzam dados de imposição física (duelos aéreos ganhos) com técnica refinada (precisão em passes longos), perfil escasso e valioso no mercado.
+* **Valor no Modelo:** Validam a capacidade do defensor de iniciar jogadas. Cruzam dados de imposição física com técnica refinada.
 
 ### Goleiros Líberos
 * **Referências:** Manuel Neuer, Alisson Becker, Mike Maignan.
